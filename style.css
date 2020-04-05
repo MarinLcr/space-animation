@@ -1,0 +1,198 @@
+/* ----------------------------
+/*  Name: mricSite
+    Author: Marin
+    Version: 1.0
+/* -------------------------- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(24,5,54);
+    background: linear-gradient(168deg, rgba(24,5,54,1) 0%, rgba(23,22,92,1) 12%, rgba(254,74,74,1) 100%);
+}
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.loading-screen {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #0a0a0a;
+    z-index: 2;
+}
+
+.shape {
+    position: absolute;
+}
+
+.comete {
+    position: absolute;
+    width: 100px;
+    right: -10%;
+    top: 30%;
+}
+
+.sun {
+    width: 200px;
+    top: 28%;
+    right: 36%;
+}
+
+.earth1 {
+    width: 100px;
+    height: 100px;
+    right: 15%;
+    bottom: 10%;
+}
+
+.earth2 {
+    width: 80px;
+    height: 80px;
+    left: 10%;
+    bottom: 10%;
+}
+
+.earth3 {
+    width: 230px;
+    height: 230px;
+    opacity: 0.7;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.earth4 {
+    width: 20px;
+    height: 220px;
+    left: 7%;
+    bottom: 4%;
+}
+
+.earth5 {
+    width: 27px;
+    top: 37%;
+    right: 47%;
+    z-index: 1;
+}
+
+.earth6 {
+    width: 10px;
+    top: 46%;
+    right: 44%;
+    z-index: 1;
+}
+
+.earth7 {
+    width: 20px;
+    top: 51%;
+    right: 49%;
+    z-index: 1;
+}
+
+.rock1 {
+    width: 110px;
+    left: 40%;
+    bottom: 23%;
+}
+
+.rock2 {
+    width: 70px;
+    top: 40%;
+    right: 20%;
+}
+
+.rock3 {
+    width: 40px;
+    top: 47%;
+    right: 23%;
+}
+
+.rock4 {
+    width: 55px;
+    bottom: 33%;
+    left: 34%;
+}
+
+.rock5 {
+    width: 40px;
+    bottom: 23%;
+    right: 43%;
+}
+
+.rock6 {
+    width: 70px;
+    top: 65%;
+    right: 30%;
+}
+
+.star1 {
+    right: -25%;
+    top: 20%;
+    width: 250px;
+}
+
+.star2 {
+    right: 25%;
+    bottom: 20%;
+    width: 70px;
+}
+
+.star3 {
+    right: 32%;
+    bottom: 17%;
+    width: 110px;
+}
+
+.star4 {
+    right: 28%;
+    bottom: 14%;
+    width: 90px;
+}
+
+.star5 {
+    right: -25%;
+    top: 10%;
+    width: 250px;
+}
+
+.shapi {
+    width: 2px;
+}
+
+.shape1 {
+    right: 27%;
+    top: 30%;
+}
+
+.shape2 {
+    bottom: 13%;
+    top: 90%;
+}
+
+.shape3 {
+    right: 67%;
+    top: 97%;
+}
+
+.shape4 {
+    right: 20%;
+    top: 31%;
+}
+
+.shape5 {
+    right: 49%;
+    top: 90%;
+}
+
+.shape6 {
+    right: 78%;
+    top: 62%;
+}

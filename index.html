@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    
+    <!-- AnimeJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+
+</head>
+<body>
+    <section class="landing">
+        <svg class="comete" width="100px" height="100px" viewBox="0 0 76 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+            <g transform="matrix(1,0,0,1,-649.936,-130)">
+                <g>
+                    <g transform="matrix(69.6796,6.10623,6.10623,-69.6796,652.564,159.2)">
+                        <g transform="matrix(0.014242,0.00124807,0.00124807,-0.014242,-0.0738784,0.412587)">
+                            <use xlink:href="#_Image1" x="0" y="0" width="75.042px" height="63.643px" transform="matrix(0.987399,0,0,0.994419,0,0)"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,654.384,192.999)">
+                        <path d="M0,-6.72L0.908,-4.477L3.36,-3.931L1.402,-2.401L1.604,0L-0.514,-1.297L-2.842,-0.359L-2.193,-2.691L-3.833,-4.512L-1.314,-4.657L0,-6.72Z" style="fill:rgb(255,248,114);fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+            <defs>
+                <image id="_Image1" width="76px" height="64px" xlink:href="data:image/png;base64,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"/>
+            </defs>
+        </svg>
+        <div class="container">
+            <div class="loading-screen">
+            </div>
+            <div class="loader">
+                <img class="shape earth3" src="assets/images/earth3.svg">
+            </div>
+        </div>
+        <img class="shape rock1" src="assets/images/rock1.svg">
+        <img class="shape earth1" src="assets/images/earth.svg">
+        <img class="shape earth2" src="assets/images/earth2.svg">
+        <img class="shape earth4" src="assets/images/earth4.svg">
+        <img class="shape earth5" src="assets/images/earth5.svg">
+        <img class="shape earth6" src="assets/images/earth6.svg">
+        <img class="shape earth7" src="assets/images/earth7.svg">
+        <img src="assets/images/sun.svg" alt="" class="shape sun">
+        <img src="assets/images/rock2.svg" alt="" class="shape rock2">
+        <img src="assets/images/rock3.svg" alt="" class="shape rock3">
+        <img src="assets/images/rock4.svg" alt="" class="shape rock4">
+        <img src="assets/images/rock5.svg" alt="" class="shape rock5">
+        <img src="assets/images/rock6.svg" alt="" class="shape rock6">             
+        <img src="assets/images/star.svg" alt="" class="shape star1">
+        <img src="assets/images/star.svg" alt="" class="shape star2">
+        <img src="assets/images/star.svg" alt="" class="shape star3">
+        <img src="assets/images/star.svg" alt="" class="shape star4">
+        <img src="assets/images/star.svg" alt="" class="shape star5">
+        <img src="assets/images/shape1.svg" alt="" class="shape shapi shape1">
+        <img src="assets/images/shape2.svg" alt="" class="shape shapi shape2">
+        <img src="assets/images/shape3.svg" alt="" class="shape shapi shape3">
+        <img src="assets/images/shape4.svg" alt="" class="shape shapi shape4">
+        <img src="assets/images/shape5.svg" alt="" class="shape shapi shape5">
+        <img src="assets/images/shape6.svg" alt="" class="shape shapi shape6">
+    </section>
+</body> 
+    <!-- SCRIPTS -->
+    <script src="./assets/js/custom.js"></script>
+    </html>
